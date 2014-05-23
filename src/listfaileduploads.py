@@ -33,7 +33,7 @@ import string
 
 sumbytesall = 0
 sumbytesolderthan = 0
-now = datetime.datetime.now()
+now = datetime.datetime.utcnow()
 
 if __name__ == '__main__':
     parser = OptionParser()
